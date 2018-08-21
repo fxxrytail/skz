@@ -1,0 +1,89 @@
+body {
+	margin:0; 
+	background-color:#000000; 
+	color:#000000; 
+	font-family:Arial; 
+	font-size: 13px;
+	text-align:center; 
+}
+
+
+#header {
+	margin:0 auto; 
+	max-width:800px;
+}
+
+#header img {
+	width: 100%;
+}
+
+#main {
+	background-color:#ffffff;
+	margin:0 auto;
+	max-width:800px;
+}
+
+.btn-container button {
+	background-color:#000000;
+	border: none;
+	color: yellow;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	margin: 0;
+}
+
+.btn-container button:hover { background-color: gray; }
+
+#allLinks {
+	text-align:left;
+	border: 2px dashed gray;
+	margin: 5px;
+	padding: 10px;
+}
+#allLinks a { text-decoration:none; }
+#allLinks a:hover { text-decoration: underline; }
+
+#about {
+	border: 2px dashed gray;
+	margin: 5px;
+	padding: 10px;
+}
+
+#about a {
+	color: green;
+	text-decoration: underline dotted;
+}
+
+/*  SECTIONS  */
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1%;
+}
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+
+/*  GRID OF THREE  */
+.span_3_of_3 { width: 100%; }
+.span_2_of_3 { width: 66.33%; }
+.span_1_of_3 { width: 32.66%; }
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+	.col {  margin: 1% 0 1% 0%; }
+	.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
+}
