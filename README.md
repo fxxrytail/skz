@@ -1,2 +1,2 @@
 # skz
-for link list of skz shows
+for masterlist of skz shows/guestings/videos
