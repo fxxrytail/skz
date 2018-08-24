@@ -7,6 +7,9 @@ body {
 	text-align:center; 
 }
 
+h5 {
+	text-align:center;
+}
 
 #header {
 	margin:0 auto; 
@@ -29,7 +32,6 @@ body {
   bottom: 20px;
   right: 30px;
   z-index: 99;
-
   border: 2px solid gray;
   outline: none;
   background-color: white;
@@ -77,6 +79,10 @@ body {
 #tag a { text-decoration:none; color:black;}
 #tag a:hover { text-decoration: underline; }
 
+.sticky {
+	position:sticky;
+	top:0;
+}
 .box {
 	background: black;
 	border: 2px dashed gray;
@@ -140,4 +146,5 @@ body {
 @media only screen and (max-width: 480px) {
 	.col {  margin: 1% 0 1% 0%; }
 	.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
+	.sticky {position:static;}
 }
