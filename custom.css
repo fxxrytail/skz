@@ -73,10 +73,10 @@ h5 {
 	margin: 5px;
 	padding: 10px;
 }
-#allLinks a { text-decoration:none; color:green;}
+#allLinks a { text-decoration:none; color:green; font-weight:bold;}
 #allLinks a:hover { text-decoration: underline; }
 
-#tag a { text-decoration:none; color:black;}
+#tag a { text-decoration:none; color:black; font-style:italic; font-weight:normal;}
 #tag a:hover { text-decoration: underline; }
 
 .sticky {
