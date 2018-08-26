@@ -76,7 +76,7 @@ h5 {
 #allLinks a { text-decoration:none; color:green; font-weight:bold;}
 #allLinks a:hover { text-decoration: underline; }
 
-#tag a { text-decoration:none; color:black; font-style:italic; font-weight:normal;}
+#tag a { text-decoration:none; color:black; font-weight:normal;}
 #tag a:hover { text-decoration: underline; }
 
 .sticky {
