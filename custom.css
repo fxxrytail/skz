@@ -7,24 +7,13 @@ body {
 	text-align:center; 
 }
 
-h5 {
-	text-align:center;
-}
+h5 { text-align:center; }
 
-#header {
-	margin:0 auto; 
-	max-width:800px;
-}
+#header { margin:0 auto; max-width:800px; }
 
-#header img {
-	width: 100%;
-}
+#header img { width: 100%; }
 
-#main {
-	background-color:white;
-	margin:0 auto;
-	max-width:800px;
-}
+#main { background-color:white; margin:0 auto; max-width:800px; }
 
 #btnTop {
   display: none;
@@ -79,10 +68,10 @@ h5 {
 #tag a { text-decoration:none; color:black; font-weight:normal;}
 #tag a:hover { text-decoration: underline; }
 
-.sticky {
-	position:sticky;
-	top:0;
-}
+#nosubs { color:red; font-size:9px; font-weight: bold;}
+
+.sticky { position:sticky; top:0; }
+
 .box {
 	background: black;
 	border: 2px dashed gray;
@@ -110,7 +99,6 @@ h5 {
 	margin: 5px;
 	padding: 10px;
 }
-
 #about a {
 	color: green;
 	text-decoration: underline dotted;
