@@ -47,7 +47,10 @@ h5 { text-align:center; }
 }
 .btn-container a {text-decoration:none; color:yellow;}
 .btn-container button:hover {background-color: yellow; color: black}
-.btn-container button:active {background-color: #ffff99; color: black;}
+.btn-container button:active {background-color: white; color: black;}
+
+#highlight {background-color: white; color: black; font-weight:bold;}
+
 
 .secTitle {
 	background-color:black;
