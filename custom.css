@@ -34,7 +34,10 @@ div.menu {display:none}
 #btnTop:hover {background-color: black; color:yellow;}
 #btnTop:active {background-color: yellow; color:black; border:none}
 
-.btn-container {}
+.btn-container {
+	max-width:800px;
+	margin: 0 auto;
+}
 
 .btn-container button {
 	background-color:black;
@@ -151,5 +154,5 @@ div.menu {display:none}
 	.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
 	.sticky {position:static;}
 	span.menu {display:none;}
-	div.menu {display:block}
+	div.menu {display:block;}
 }
