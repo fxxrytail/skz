@@ -34,10 +34,7 @@ div.menu {display:none}
 #btnTop:hover {background-color: black; color:yellow;}
 #btnTop:active {background-color: yellow; color:black; border:none}
 
-.btn-container {
-	max-width:800px;
-	margin: 0 auto;
-}
+.btn-container {}
 
 .btn-container button {
 	background-color:black;
