@@ -1,2 +1,2 @@
 # skz
-for masterlist of skz shows/guestings/videos
+for masterlist of Stray Kids videos and shows
